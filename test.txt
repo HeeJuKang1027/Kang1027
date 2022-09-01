@@ -1,0 +1,9 @@
+#!/bin/bash
+
+STR=`cat test.txt`
+SUB='Hello, GitHub!'
+if [[ "$STR" == *"$SUB"* ]]; then
+	echo "True"
+else
+	echo "False"
+fi
